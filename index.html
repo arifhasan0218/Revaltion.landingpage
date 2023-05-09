@@ -1,0 +1,110 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style/style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.1/css/all.min.css">
+    <title>Document</title>
+</head>
+
+<body>
+    <header id="header" class="header">
+        <a href="index.html" class="logo">Reval<span>tion</span></a>
+        <ul class="navbar">
+            <li class="nav-item">
+                <a href="" class="nav-link active">Home</a>
+            </li>
+            <li class="nav-item">
+                <a href="#about" class="nav-link">About Us</a>
+            </li>
+            <li class="nav-item">
+                <a href="" class="nav-link">Service</a>
+            </li>
+            <li class="nav-item">
+                <a href="" class="nav-link">Contact</a>
+            </li>
+            <li class="nav-item">
+                <a href="" class="nav-link">Dropdown</a>
+            </li>
+        </ul>
+        <div class="register">
+            <i class="fa-solid fa-bars"></i>
+            <!-- <a href="#" class="Login">Login</a>
+            <a href="#" class="singup">Signup</a> -->
+        </div>
+    </header>
+
+
+    <!-- /* =================================================================================
+                                Home Section Design
+  ==================================================================================== */ -->
+
+    <section class="home" id="home">
+        <div class="home-text">
+            <h2>Welcome To Studio!</h2>
+            <h1>Latest Innovations and Advancements</h1>
+            <p>Technology refers to the tools, methods, and systems that are developed through scientific knowledge and
+                used to solve problems or accomplish specific tasks. It encompasses everything from smartphones and
+                computers to artificial intelligence and biotechnology. Technology has revolutionized the way we live,
+                work, and communicate, and continues to evolve rapidly, with new breakthroughs and innovations
+                constantly emerging.</p>
+            <div class="button">
+                <a href="#" class="btn">Read More</a>
+            </div>
+        </div>
+    </section>
+
+    <section class="about" id="about">
+        <div class="main-text">
+            <h3><span>About</span> me!</h3>
+            <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Fuga quaerat ea accusamus?</p>
+        </div>
+
+        <div class="about-content">
+            <div class="about-img">
+                <img src="img/elon.webp" alt="About image">
+                <div class="layer">
+                    I'm The King of Space!
+                </div>
+            </div>
+            <div class="about-text">
+                <h3>I'm <span>Elon Musk</span></h3>
+                <h4><span>CEO of Telsa</span></h4>
+                <hr>
+                <p>Elon Musk is a business magnate, investor, and engineer. He was born in South Africa in 1971 and
+                    later
+                    moved to the United States where he co-founded a number of successful companies, including PayPal,
+                    Tesla, SpaceX, Neuralink, and The Boring Company.
+
+                    Musk is known for his ambitious goals and innovative ideas, such as his vision for a sustainable
+                    future
+                    with electric cars and renewable energy, his plans to colonize Mars, and his work on advanced
+                    artificial
+                    intelligence and brain-computer interfaces. He has also made headlines for his outspoken personality
+                    and
+                    controversial statements on various issues.
+
+                    Musk is considered one of the wealthiest people in the world and has received numerous awards for
+                    his
+                    achievements in technology and entrepreneurship.</p>
+            </div>
+        </div>
+    </section>
+
+
+
+
+
+    <script>
+        const header = document.querySelector("header");
+        window.addEventListener("scroll", function () {
+            header.classList.toggle("sticky", window.scrollY > 100);
+        })
+    </script>
+
+</body>
+
+</html>
